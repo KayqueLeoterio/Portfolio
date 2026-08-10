@@ -25,7 +25,7 @@ const projects = [
       "Type Script",
       "Vue.JS",
     ],
-    repo: "https://github.com/brisa-unisinos",
+    repo: "https://github.com/brisa-unisinos/apropcustosemprojetos.git",
     year: "09/2025 - 03/2026",
   },
   {
@@ -34,7 +34,7 @@ const projects = [
       "Aplicação desenvolvida em Java que realiza integração com uma API de Inteligência Artificial por meio de requisições HTTP. O sistema recebe um prompt do usuário, envia os dados em formato JSON.",
     tags: ["Java", "GeminiAPI", "APIs REST"],
 
-    repo: "",
+    repo: "https://github.com/KayqueLeoterio/GeminiAPI.git",
     year: "2026",
   },
   {
