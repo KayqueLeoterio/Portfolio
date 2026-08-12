@@ -15,7 +15,7 @@ const projects = [
   {
     name: "Apropriação de Custos",
     description:
-      "Projeto desenvolvido durante a TIC55 para a Brisa, um software de rateio e apropriação de custos por projeto, meu foco foi no desenvolvimento do banco de dados e backend.",
+      "Projeto desenvolvido durante a TIC55 para a Brisa, um software de rateio e apropriação de custos por projeto, meu foco foi no desenvolvimento backend e banco de dados.",
     tags: [
       "Java",
       "SpringBoot",
@@ -59,6 +59,7 @@ const stack = [
   { label: "Java", category: "backend" },
   { label: "Spring Boot", category: "backend" },
   { label: "Type Script", category: "frontend" },
+  { label: "Java Script", category: "frontend" },
   { label: "PostgreSQL", category: "data" },
   { label: "MySQL", category: "data" },
   { label: "Docker", category: "infra" },
@@ -92,16 +93,15 @@ const socials = [
     url: "https://linkedin.com/in/kayqueleoterio",
   },
 
-  
   {
-  icon: Mail,
-  label: "E-mail",
-  handle: "kayque.leoterio@gmail.com",
-  url: "https://mail.google.com/mail/?view=cm&fs=1&to=kayque.leoterio@gmail.com",
-},
+    icon: Mail,
+    label: "E-mail",
+    handle: "kayque.leoterio@gmail.com",
+    url: "https://mail.google.com/mail/?view=cm&fs=1&to=kayque.leoterio@gmail.com",
+  },
 ];
 
-ex default function App() {
+export default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = ["Projetos", "Stack", "Contato"];
@@ -393,7 +393,7 @@ ex default function App() {
               trabalhar juntos
             </h2>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Estou aberto a ounidades! Projetos
+              Estou aberto a oportunidades! Projetos
               colaborativos e posições full-time. Me manda uma
               mensagem.
             </p>
@@ -451,7 +451,8 @@ ex default function App() {
             <span className="text-foreground">{"/>"}</span>
           </p>
           <p className="text-xs text-muted-foreground">
-            Feito com foco, café e vibe — {new Date().getFullYear()}
+            Feito com foco, café e vibe —{" "}
+            {new Date().getFullYear()}
           </p>
         </div>
       </footer>
