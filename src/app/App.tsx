@@ -15,7 +15,7 @@ const projects = [
   {
     name: "Apropriação de Custos",
     description:
-      "Projeto desenvolvido durante a TIC55 para a Brisa, um software de rateio e apropriação de custos por projeto",
+      "Projeto desenvolvido durante a TIC55 para a Brisa, um software de rateio e apropriação de custos por projeto, meu foco foi no desenvolvimento do banco de dados e backend.",
     tags: [
       "Java",
       "SpringBoot",
