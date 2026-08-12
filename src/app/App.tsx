@@ -447,7 +447,7 @@ export default function App() {
           >
             <span className="text-accent">{"<"}</span>Kayque
             Leotério
-            <span className="text-foreground">{"/>"}</span>
+            <span className="text-accent">{"/>"}</span>
           </p>
           <p className="text-xs text-muted-foreground">
             Feito com foco, café e vibe —{" "}
