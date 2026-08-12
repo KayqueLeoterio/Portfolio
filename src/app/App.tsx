@@ -211,8 +211,8 @@ export default function App() {
               "const dev = {",
               "  nome: 'Kayque Leotério',",
               "  foco: 'Backend',",
-              "  exp: 2,",
-              "  hoobs: Basquete,Musica,Acampar,Filmes...",
+              "  exp: +1,",
+              "  hobbies: Basquete,Musica,Acampar,Filmes...",
               "}",
             ].map((line, i) => (
               <div
@@ -389,7 +389,7 @@ export default function App() {
             >
               Vamos
               <br />
-              trabalhar juntos
+              trabalhar juntos!
             </h2>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
               Estou aberto a oportunidades! Projetos
