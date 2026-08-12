@@ -1,5 +1,5 @@
-import { useState } from "react";
-import {
+im { useState } from "react";
+im {
   Github,
   Linkedin,
   Twitter,
@@ -101,7 +101,7 @@ const socials = [
 },
 ];
 
-export default function App() {
+ex default function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const navLinks = ["Projetos", "Stack", "Contato"];
@@ -393,7 +393,7 @@ export default function App() {
               trabalhar juntos
             </h2>
             <p className="text-muted-foreground leading-relaxed max-w-sm">
-              Estou aberto a oportunidades! Projetos
+              Estou aberto a ounidades! Projetos
               colaborativos e posições full-time. Me manda uma
               mensagem.
             </p>
@@ -451,7 +451,7 @@ export default function App() {
             <span className="text-foreground">{"/>"}</span>
           </p>
           <p className="text-xs text-muted-foreground">
-            Feito com foco e café — {new Date().getFullYear()}
+            Feito com foco, café e vibe — {new Date().getFullYear()}
           </p>
         </div>
       </footer>
