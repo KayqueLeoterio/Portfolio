@@ -1,5 +1,5 @@
-im { useState } from "react";
-im {
+import { useState } from "react";
+import {
   Github,
   Linkedin,
   Twitter,
