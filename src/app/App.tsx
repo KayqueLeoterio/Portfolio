@@ -15,7 +15,7 @@ const projects = [
   {
     name: "Apropriação de Custos",
     description:
-      "Projeto desenvolvido durante a TIC55 para a Brisa, um software de rateio e apropriação de custos por projeto, meu foco foi no desenvolvimento backend e banco de dados.",
+      "Projeto desenvolvido durante a TIC55 para a Brisa, um software de rateio e apropriação de custos por projeto,  meu foco foi no desenvolvimento do banco de dados e backend.",
     tags: [
       "Java",
       "SpringBoot",
@@ -59,7 +59,6 @@ const stack = [
   { label: "Java", category: "backend" },
   { label: "Spring Boot", category: "backend" },
   { label: "Type Script", category: "frontend" },
-  { label: "Java Script", category: "frontend" },
   { label: "PostgreSQL", category: "data" },
   { label: "MySQL", category: "data" },
   { label: "Docker", category: "infra" },
@@ -165,12 +164,12 @@ export default function App() {
       {/* HERO */}
       <section
         id="top"
-        className="flex flex-col justify-start pt-24 pb-16 px-6 md:min-h-screen md:justify-center md:pt-16 max-w-6xl mx-auto"
+        className="flex flex-col justify-start pt-24 pb-10 px-6 max-w-6xl mx-auto"
       >
         <div className="grid grid-cols-1 lg:grid-cols-[1fr_auto] gap-16 items-center">
           <div>
             <p
-              className="text-accent text-sm font-medium tracking-widest uppercase mb-6"
+              className="text-accent text-sm font-medium tracking-widest uppercase mb-3"
               style={{
                 fontFamily: "'JetBrains Mono', monospace",
               }}
@@ -246,9 +245,9 @@ export default function App() {
       {/* PROJECTS */}
       <section
         id="projetos"
-        className="py-12 px-6 max-w-6xl mx-auto"
+        className="py-8 px-6 max-w-6xl mx-auto"
       >
-        <div className="flex items-end justify-between mb-12">
+        <div className="flex items-end justify-between mb-8">
           <div>
             <p
               className="text-accent text-xs tracking-widest uppercase mb-2"
