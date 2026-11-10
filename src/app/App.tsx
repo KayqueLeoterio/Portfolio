@@ -107,7 +107,7 @@ const socials = [
  {
   icon: MessageCircle,
   label: "WhatsApp",
-  handle: "WhatsApp",
+  handle: "@KayqueLeoterio",
   url: `https://api.whatsapp.com/send?phone=5551982814042&text=${encodeURIComponent(whatsappMessage)}`
 },
 ];
