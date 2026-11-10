@@ -9,6 +9,7 @@ import {
   Code2,
   Menu,
   X,
+  MessageCircle
 } from "lucide-react";
 
 const projects = [
@@ -59,6 +60,8 @@ const stack = [
   { label: "Java", category: "backend" },
   { label: "Spring Boot", category: "backend" },
   { label: "Type Script", category: "frontend" },
+  { label: "Java Script", category: "frontend" },
+  { label: "React", category: "frontend" },
   { label: "PostgreSQL", category: "data" },
   { label: "MySQL", category: "data" },
   { label: "Docker", category: "infra" },
@@ -97,6 +100,12 @@ const socials = [
     label: "E-mail",
     handle: "kayque.leoterio@gmail.com",
     url: "https://mail.google.com/mail/?view=cm&fs=1&to=kayque.leoterio@gmail.com",
+  },
+  {
+    icon:   MessageCircle,
+    label: "WhatsApp",
+    handle: "WhatsApp",
+    url: "https://api.whatsapp.com/send?phone=5551982814042"
   },
 ];
 
