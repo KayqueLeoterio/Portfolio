@@ -195,14 +195,12 @@ export default function App() {
               >
                 Ver projetos <ArrowUpRight size={16} />
               </a>
-              <a
-                href="#contato"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 px-6 py-3 rounded border border-border text-foreground font-medium hover:border-accent/40 hover:bg-secondary transition-colors duration-200"
-              >
-                Falar comigo
-              </a>
+            <a
+  href="#contato"
+  className="inline-flex items-center gap-2 px-6 py-3 rounded border border-border text-foreground font-medium hover:border-accent/40 hover:bg-secondary transition-colors duration-200"
+>
+  Falar comigo
+</a>
             </div>
           </div>
 
