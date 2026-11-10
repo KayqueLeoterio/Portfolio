@@ -62,13 +62,17 @@ const stack = [
   { label: "Type Script", category: "frontend" },
   { label: "Java Script", category: "frontend" },
   { label: "React", category: "frontend" },
+  { label: "Figma", category: "frontend" },
+  { label: "Supabase", category: "data" },
   { label: "PostgreSQL", category: "data" },
   { label: "MySQL", category: "data" },
   { label: "Docker", category: "infra" },
+  { label: "Postman", category: "infra" },
   { label: "Git", category: "infra" },
   { label: "GitHub", category: "infra" },
   { label: "Git Project", category: "infra" },
   { label: "GitHub Actions", category: "infra" },
+  { label: "Vercel", category: "infra" },
 ];
 
 const categoryColor: Record<string, string> = {
