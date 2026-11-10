@@ -81,6 +81,9 @@ const categoryColor: Record<string, string> = {
   infra: "bg-slate-800/60 text-slate-300 border-slate-600/30",
 };
 
+const whatsappMessage =
+  "Olá, Kayque! Encontrei seu portfólio e gostaria de conhecer melhor seu trabalho. Podemos conversar?";
+
 const socials = [
   {
     icon: Github,
@@ -101,12 +104,12 @@ const socials = [
     handle: "kayque.leoterio@gmail.com",
     url: "https://mail.google.com/mail/?view=cm&fs=1&to=kayque.leoterio@gmail.com",
   },
-  {
-    icon:   MessageCircle,
-    label: "WhatsApp",
-    handle: "WhatsApp",
-    url: "https://api.whatsapp.com/send?phone=5551982814042"
-  },
+ {
+  icon: MessageCircle,
+  label: "WhatsApp",
+  handle: "WhatsApp",
+  url: `https://api.whatsapp.com/send?phone=5551982814042&text=${encodeURIComponent(whatsappMessage)}`
+},
 ];
 
 export default function App() {
